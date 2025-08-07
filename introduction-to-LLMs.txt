@@ -1,0 +1,22 @@
+So, to understand what an LLM is lets decompose it and explain it a little bit here.
+
+
+
+Suppose you have a folder called "LLM-2-70b", alright the name comes from this:
+  - "LLM" is the series of models
+  - "2" comes from the iteration (not sure what that means)
+  - "70b" is reffers to 70 billion, and is talking about the parameter that neural network has
+
+now, this folder has 2 files
+  - paraneters
+  - run.c
+
+the parameters file is just a file with bynary values, and the run.c file is a program wrote in
+the language C (why C ? well, cause is a low level language and is efficient in runtime and syntax
+characters)
+
+the run.c files must be compiled and and then run pointing at the parameters file, and with that, you
+would have your model running, to this model that runs you can pass it prompts as to a normal AI model
+like Chatgpt.
+
+### LLM training
